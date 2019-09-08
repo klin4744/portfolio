@@ -1,3 +1,8 @@
-.home {
+.Home {
    text-align: center;
+}
+
+.content {
+   margin-top: 2.5em;
+   width: 100%;
 }

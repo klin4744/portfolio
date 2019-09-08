@@ -1,6 +1,8 @@
 /* eslint-disable no-useless-constructor */
 import React from 'react';
 import './Home.css';
+import Navbar from './Navbar';
+import Header from './Header';
 
 class Home extends React.Component {
    constructor(props) {
@@ -8,8 +10,11 @@ class Home extends React.Component {
    }
    render() {
       return (
-         <div className="home">
-            <h1>Kevin Lin</h1>
+         <div className="Home">
+            <Navbar />
+            <div className="content">
+               <Header />
+            </div>
          </div>
       );
    }
