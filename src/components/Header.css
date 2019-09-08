@@ -1,4 +1,10 @@
 .Header {
+   position: relative;
+   top: 0;
+   left: 0;
+   height: 100vh;
+}
+.header-content {
    position: absolute;
    top: 45%;
    left: 50%;
@@ -6,15 +12,24 @@
 }
 .header-text {
    font-size: 2em;
+   animation: slideDown 3s;
 }
 .arrow {
    font-size: 4em;
    position: absolute;
    transform: translate(-50%, 100%);
-   animation: bounce 2s infinite;
+   animation: slideUp 3s, bounce 3s 3s;
+   background-color: white;
+   border: 2px solid black;
+   border-radius: 50%;
+   color: black;
+   height: 1em;
+   width: 1em;
 }
 .arrow:hover {
-   animation: none;
+   color: white;
+   background-color: black;
+   cursor: pointer;
 }
 
 @keyframes bounce {
@@ -30,5 +45,27 @@
    }
    60% {
       transform: translate(-50%, 30%);
+   }
+}
+
+@keyframes slideDown {
+   0% {
+      transform: translateY(-60px);
+      opacity: 0;
+   }
+   100% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+
+@keyframes slideUp {
+   0% {
+      transform: translate(-50%, 200px);
+      opacity: 0;
+   }
+   100% {
+      transform: translate(-50%, 100%);
+      opacity: 1;
    }
 }

@@ -1,0 +1,8 @@
+.About img {
+   border-radius: 50%;
+   margin-left: 1em;
+}
+.About p {
+   position: relative;
+   top: 30%;
+}

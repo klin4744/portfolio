@@ -3,6 +3,7 @@ import React from 'react';
 import './Home.css';
 import Navbar from './Navbar';
 import Header from './Header';
+import About from './About';
 
 class Home extends React.Component {
    constructor(props) {
@@ -10,10 +11,11 @@ class Home extends React.Component {
    }
    render() {
       return (
-         <div className="Home">
+         <div id="home" className="Home">
             <Navbar />
             <div className="content">
                <Header />
+               <About />
             </div>
          </div>
       );
