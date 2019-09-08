@@ -37,17 +37,29 @@ export default function About() {
                      </a>
                   </div>
                   <div className="col-4">
-                     <a href="https://github.com/klin4744" target="_blank">
-                        <i className="fa fa-github" aria-hidden="true"></i>
+                     <a href="https://www.linkedin.com/in/kevin-lin-b1a126111/">
+                        <i
+                           className="fa fa-linkedin-square"
+                           aria-hidden="true"
+                        ></i>
                      </a>
                   </div>
                   <div className="col-4">
-                     <a href="https://github.com/klin4744" target="_blank">
-                        <i className="fa fa-github" aria-hidden="true"></i>
+                     <a
+                        href="https://medium.com/@kevinlin_71519"
+                        target="_blank"
+                     >
+                        <i className="fa fa-medium" aria-hidden="true"></i>
                      </a>
                   </div>
                </div>
-               <Button variant="light" id="resume-btn" className="mt-5">
+               <Button
+                  variant="light"
+                  id="resume-btn"
+                  className="mt-5"
+                  href={require('../assets/resume.pdf')}
+                  download="resume.pdf"
+               >
                   <i className="fa fa-cloud-download" aria-hidden="true"></i>
                   {'   '}
                   <p>Download my Resume</p>
