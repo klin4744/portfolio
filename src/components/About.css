@@ -2,7 +2,36 @@
    border-radius: 50%;
    margin-left: 1em;
 }
-.About p {
+.about-right {
+   margin: 4em 0em;
+}
+.about-right p,
+.about-right i {
+   color: white;
+   font-size: 1.1em;
+}
+.about-right i {
+   font-size: 2em;
+}
+.about-right i:hover {
+   color: rgb(40, 194, 241);
+}
+#resume-btn {
+   box-shadow: black 2px 3px;
+}
+#resume-btn i {
+   color: black;
+}
+#resume-btn p {
+   display: inline-block;
+   color: black;
+   font-size: 0.95em;
+   margin: auto 0;
    position: relative;
-   top: 30%;
+   top: 50%;
+   left: 1%;
+   transform: translateY(-25%);
+}
+.about-content {
+   box-shadow: 5px 10px #6d6c6c;
 }

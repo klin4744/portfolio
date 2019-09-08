@@ -1,11 +1,12 @@
 import React from 'react';
 import './About.css';
+import Button from 'react-bootstrap/Button';
 
 export default function About() {
    return (
       <div id="about" className="About bg-light text-black py-4">
          <h1 className="display-4">About Me</h1>
-         <div className="row w-90">
+         <div className="container row w-90 bg-dark mx-auto p-2 rounded about-content">
             <div className="col-6">
                <img
                   className="img-fluid"
@@ -13,7 +14,7 @@ export default function About() {
                   src={require('../assets/myFace.jpg')}
                />
             </div>
-            <div className="col-6">
+            <div className="col-6 about-right">
                <p className="lead">
                   In college, I built an application for my senior design
                   project tailored to solve an issue in the medical industry.
@@ -29,6 +30,28 @@ export default function About() {
                   developed applications with strict deadlines and new
                   technologies.{' '}
                </p>
+               <div className="row mx-auto">
+                  <div className="col-4">
+                     <a href="https://github.com/klin4744" target="_blank">
+                        <i className="fa fa-github" aria-hidden="true"></i>
+                     </a>
+                  </div>
+                  <div className="col-4">
+                     <a href="https://github.com/klin4744" target="_blank">
+                        <i className="fa fa-github" aria-hidden="true"></i>
+                     </a>
+                  </div>
+                  <div className="col-4">
+                     <a href="https://github.com/klin4744" target="_blank">
+                        <i className="fa fa-github" aria-hidden="true"></i>
+                     </a>
+                  </div>
+               </div>
+               <Button variant="light" id="resume-btn" className="mt-5">
+                  <i className="fa fa-cloud-download" aria-hidden="true"></i>
+                  {'   '}
+                  <p>Download my Resume</p>
+               </Button>
             </div>
          </div>
       </div>
