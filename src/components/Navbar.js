@@ -14,8 +14,13 @@ export default function NavigationBar() {
             <Nav className="ml-auto">
                <Nav.Link href="#home">Home</Nav.Link>
                <Nav.Link href="#about">About Me</Nav.Link>
-               <Nav.Link href="#link">My Projects</Nav.Link>
-               <Nav.Link href="#articles">My Articles</Nav.Link>
+               <Nav.Link href="#projects">My Projects</Nav.Link>
+               <Nav.Link
+                  href="https://medium.com/@kevinlin_71519"
+                  target="_blank"
+               >
+                  My Articles
+               </Nav.Link>
             </Nav>
          </Navbar.Collapse>
       </Navbar>

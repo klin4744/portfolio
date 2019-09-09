@@ -1,0 +1,40 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   height: 150px;
+   width: 150px;
+   outline: black;
+   background-image: none;
+   background-size: 100%, 100%;
+   position: relative;
+}
+.carousel-control-prev {
+   color: black;
+}
+.carousel-control-next {
+   color: black;
+}
+
+.carousel-control-next-icon:after {
+   content: '}';
+   font-size: 10em;
+   color: black;
+   position: absolute;
+   top: -50%;
+}
+
+.carousel-control-prev-icon:after {
+   content: '{';
+   font-size: 10em;
+   color: black;
+   position: absolute;
+   top: -50%;
+}
+.project-text {
+   display: inline-block;
+}
+.btn {
+   box-shadow: 2px 3px black;
+}
+.carousel-indicators {
+   display: none;
+}

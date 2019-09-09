@@ -37,7 +37,10 @@ export default function About() {
                      </a>
                   </div>
                   <div className="col-4">
-                     <a href="https://www.linkedin.com/in/kevin-lin-b1a126111/">
+                     <a
+                        href="https://www.linkedin.com/in/kevin-lin-b1a126111/"
+                        target="_blank"
+                     >
                         <i
                            className="fa fa-linkedin-square"
                            aria-hidden="true"
