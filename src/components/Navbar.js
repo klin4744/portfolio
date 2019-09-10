@@ -11,17 +11,22 @@ export default function NavigationBar() {
          </Navbar.Brand>
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-               <Nav.Link href="#home">Home</Nav.Link>
-               <Nav.Link href="#about">About Me</Nav.Link>
-               <Nav.Link href="#projects">My Projects</Nav.Link>
-               <Nav.Link
-                  href="https://medium.com/@kevinlin_71519"
-                  target="_blank"
-               >
-                  My Articles
-               </Nav.Link>
-            </Nav>
+            <ul className="ml-auto navbar-nav">
+               <li className="nav-item ml-2">
+                  <a href="#home">Home</a>
+               </li>
+               <li className="nav-item ml-2">
+                  <a href="#about">About Me</a>
+               </li>
+               <li className="nav-item ml-2">
+                  <a href="#projects">My Projects</a>
+               </li>
+               <li className="nav-item ml-2">
+                  <a href="https://medium.com/@kevinlin_71519" target="_blank">
+                     My Articles
+                  </a>
+               </li>
+            </ul>
          </Navbar.Collapse>
       </Navbar>
    );

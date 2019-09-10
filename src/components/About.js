@@ -7,14 +7,14 @@ export default function About() {
       <div id="about" className="About bg-light text-black py-4">
          <h1 className="display-4">About Me</h1>
          <div className="container row w-90 bg-dark mx-auto p-2 rounded about-content">
-            <div className="col-6">
+            <div className="col-12 col-lg-6 text-center">
                <img
-                  className="img-fluid"
+                  className="img-fluid w-sm-25 rounded d-inline-block"
                   alt=""
                   src={require('../assets/myFace.jpg')}
                />
             </div>
-            <div className="col-6 about-right">
+            <div className="col-12 col-lg-6 about-right">
                <p className="lead">
                   In college, I built an application for my senior design
                   project tailored to solve an issue in the medical industry.

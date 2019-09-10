@@ -10,14 +10,14 @@ export default function Projects() {
          <Carousel>
             <Carousel.Item>
                <div className="row w-75 mx-auto">
-                  <div className="col-5">
+                  <div className="col-12 col-lg-5">
                      <img
                         className="img-fluid"
                         alt=""
                         src={require('../assets/a-maze-thing.png')}
                      />
                   </div>
-                  <div className="col-7 my-auto">
+                  <div className="col-12 col-lg-7 my-auto">
                      <p className="display-4">A Maze Thing</p>
                      <p>
                         An Augmented Reality application where players navigate
@@ -28,22 +28,22 @@ export default function Projects() {
 
                      <div className="row mb-4">
                         <div className="mx-auto">
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>React Native</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>PostgreSQL</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>ViroAR</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>Sequelize</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>Express JS</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>Node JS</small>
                            </span>
                         </div>
@@ -64,14 +64,14 @@ export default function Projects() {
             </Carousel.Item>
             <Carousel.Item>
                <div className="row w-75 mx-auto">
-                  <div className="col-5">
+                  <div className="col-lg-5 col-12">
                      <img
                         className="img-fluid"
                         alt=""
                         src={require('../assets/athletipal.png')}
                      />
                   </div>
-                  <div className="col-7 my-auto">
+                  <div className="col-lg-7 col-12 my-auto">
                      <p className="display-4">Athletipal</p>
                      <p>
                         Athletipal is a TensorFlow project built directly on top
@@ -84,13 +84,13 @@ export default function Projects() {
 
                      <div className="row mb-4">
                         <div className="mx-auto">
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>TensorFlowJS</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>PoseNet</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>NutritionX API</small>
                            </span>
                         </div>
@@ -111,14 +111,14 @@ export default function Projects() {
             </Carousel.Item>
             <Carousel.Item>
                <div className="row w-75 mx-auto">
-                  <div className="col-5">
+                  <div className="col-lg-5 col-12">
                      <img
                         className="img-fluid"
                         alt=""
                         src={require('../assets/book-worm.png')}
                      />
                   </div>
-                  <div className="col-7 my-auto">
+                  <div className="col-lg-7 col-12 my-auto">
                      <p className="display-4">Book Worm</p>
                      <p>
                         An ecommerce website for books featuring guess carts,
@@ -128,32 +128,32 @@ export default function Projects() {
 
                      <div className="row mb-4">
                         <div className="mx-auto">
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>React</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>Redux</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>Local Storage</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>Express JS</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block">
                               <small>Node JS</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block ">
                               <small>Travis CI</small>
                            </span>
-                           <span className="border border-dark px-2 rounded mx-1">
+                           <span className="border border-dark px-2 rounded m-1 d-inline-block ">
                               <small>Stripe API</small>
                            </span>
                         </div>
                      </div>
                      <a
                         href="https://github.com/team-kram/BookWorm"
-                        className="btn btn-dark"
+                        className="btn btn-dark m-2"
                         target="_blank"
                      >
                         <i
@@ -164,7 +164,7 @@ export default function Projects() {
                      </a>
                      <a
                         href="https://book-worm-kram.herokuapp.com/"
-                        className="btn btn-dark mx-2"
+                        className="btn btn-dark m-2"
                         target="_blank"
                      >
                         <i className="fa fa-globe fa-lg" aria-hidden="true"></i>{' '}

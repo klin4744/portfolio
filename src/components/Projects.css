@@ -1,17 +1,23 @@
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
    height: 150px;
-   width: 150px;
    outline: black;
    background-image: none;
    background-size: 100%, 100%;
+   z-index: 2;
    position: relative;
+} */
+.carousel-inner {
+   position: relative;
+   z-index: 1;
 }
 .carousel-control-prev {
    color: black;
+   display: inline-block;
 }
 .carousel-control-next {
    color: black;
+   display: inline-block;
 }
 
 .carousel-control-next-icon:after {
@@ -19,7 +25,9 @@
    font-size: 10em;
    color: black;
    position: absolute;
-   top: -50%;
+   top: 5vh;
+   z-index: 2;
+   right: 0;
 }
 
 .carousel-control-prev-icon:after {
@@ -27,7 +35,9 @@
    font-size: 10em;
    color: black;
    position: absolute;
-   top: -50%;
+   z-index: 2;
+   top: 5vh;
+   left: 0;
 }
 .project-text {
    display: inline-block;
@@ -37,4 +47,18 @@
 }
 .carousel-indicators {
    display: none;
+}
+
+@media screen and (max-width: 600px) {
+   #projects p {
+      font-size: 14px;
+   }
+   #projects p.display-4 {
+      font-size: 2em;
+   }
+   .carousel-control-next-icon:after,
+   .carousel-control-prev-icon:after {
+      font-size: 8em;
+      top: 20vh;
+   }
 }
